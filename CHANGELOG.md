@@ -5,6 +5,7 @@
 
 ### Features
 
+- add CHANGELOG.md for version 0.1.0 with features, chores, docs, and dependencies ([092983e](https://github.com///commit/092983ecbe0c3d9e20c6fcad0751291d584da473))
 - add main.py with entry point and page layout integration ([ee939e7](https://github.com///commit/ee939e79be514df93bff15bebfd6e533f2658e53))
 - add layout.py for page navigation structure ([8f8d297](https://github.com///commit/8f8d29700c41e6ba975446a0f1cd3ed50caa0614))
 - add home.py with initial file structure and metadata ([958b616](https://github.com///commit/958b616a334e549bc20f0f4cf898d0f7ea78536f))
