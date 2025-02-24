@@ -18,6 +18,10 @@
 - add graph.py with initial file structure and metadata ([4b90e45](https://github.com///commit/4b90e454d039a28673f2a58d4c234c128f1286a4))
 - add initial __init__.py with main function ([a18fd0c](https://github.com///commit/a18fd0cb8bec91a3ed12175178d58ef659df47f1))
 
+### Bug Fixes
+
+- adjust expander state and set height in config for flowchart ([1f15c20](https://github.com///commit/1f15c20830a902a11603d67f38968d2fd433775c))
+
 ### Chore
 
 - add __pycache__ directory to .gitignore ([73c0d21](https://github.com///commit/73c0d21bb1f6248484e5a62938e282abc48fadb1))
@@ -26,7 +30,7 @@
 
 ### Docs
 
-- update CHANGELOG.md to include recent edge style feature additions ([2beda1d](https://github.com///commit/2beda1d8b9156787ef5c8782ba7d1c030ec25f9f))
+- update CHANGELOG.md to include recent edge style feature additions ([4182fe8](https://github.com///commit/4182fe8a8c0362ccf7437d55d103e6e98acd3cf3))
 - update CHANGELOG.md to include recent feature additions and chore updates ([8a5792b](https://github.com///commit/8a5792b7240f14993904e22992392370d1dc27ed))
 - update CHANGELOG.md for version 0.1.0 with recent features and dependencies ([5df461b](https://github.com///commit/5df461bba9451aa25242ff00d11f3ca8808808c0))
 - add README file ([3851a92](https://github.com///commit/3851a92a7220f197de6b6815cdc624e87c99ab1c))
