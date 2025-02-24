@@ -9,6 +9,8 @@
 from streamlit import title, divider, expander, caption, empty
 from streamlit_agraph import agraph, Node, Edge, Config
 
+from utilis.tools import params_flowchart
+
 title("LangGraph")
 divider()
 with expander("Introduction", expanded=True):
@@ -16,18 +18,22 @@ with expander("Introduction", expanded=True):
 
 empty_message: empty = empty()
 
+node_colour, node_shape, node_size, font_size, edge_width, edge_colour = params_flowchart()
+
 nodes = [
-    Node(id="start", label="Start", size=30, color="pink"),
-    Node(id="Bob", label="Bob", size=25, color="blue"),
-    Node(id="Charlie", label="Charlie", size=25, color="purple"),
+    Node(id="Start", label="Start", color=node_colour, shape=node_shape, size=node_size, font={"size": font_size}),
+    Node(id="Agent", label="Agent", color=node_colour, shape=node_shape, size=node_size, font={"size": font_size}),
+    Node(id="Tools", label="Tools", color=node_colour, shape=node_shape, size=node_size, font={"size": font_size}),
+    Node(id="End", label="End", color=node_colour, shape=node_shape, size=node_size, font={"size": font_size}),
 ]
 
 edges = [
-    Edge(source="Alice", target="Bob", label="朋友"),
-    Edge(source="Bob", target="Charlie", label="同事"),
-    Edge(source="Charlie", target="Alice", label="邻居"),
+    Edge(source="Start", target="Agent", arrow_to=True, width=edge_width, color=edge_colour),
+    Edge(source="Agent", target="Tools", arrow_to=True, width=edge_width, color=edge_colour),
+    Edge(source="Tools", target="Agent", arrow_to=True, width=edge_width, color=edge_colour),
+    Edge(source="Agent", target="End", arrow_to=True, width=edge_width, color=edge_colour),
 ]
 
-config = Config(width=800, height=500, physics=True, directed=False)
+config = Config(physics=True, directed=True, hierarchical=True, fit=True)
 
 agraph(nodes=nodes, edges=edges, config=config)
