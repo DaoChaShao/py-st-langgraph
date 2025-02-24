@@ -7,6 +7,7 @@
 # @Desc     :   
 
 from enum import unique, StrEnum
+
 from streamlit import sidebar, header, slider, selectbox, caption
 
 
@@ -63,4 +64,17 @@ def params_flowchart():
                                      help="Select the Edge Color")
         caption(f"The selected colour is {edge_colour}")
 
-        return node_colour, node_shape, node_size, font_size, edge_width, edge_colour
+        options_style = ["solid", "dashed", "dotted"]
+        style: str = selectbox("Edge Style", options_style, index=0,
+                               placeholder="Choose an option",
+                               help="Select the Edge Style")
+        caption(f"The selected style is {style}")
+        match style:
+            case "solid":
+                edge_style = False
+            case "dashed":
+                edge_style = [5, 5]
+            case "dotted":
+                edge_style = [1, 5]
+
+        return node_colour, node_shape, node_size, font_size, edge_width, edge_colour, edge_style
