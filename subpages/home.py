@@ -18,7 +18,7 @@ with expander("Introduction", expanded=True):
 
 empty_message: empty = empty()
 
-node_colour, node_shape, node_size, font_size, edge_width, edge_colour = params_flowchart()
+node_colour, node_shape, node_size, font_size, edge_width, edge_colour, edge_style = params_flowchart()
 
 nodes = [
     Node(id="Start", label="Start", color=node_colour, shape=node_shape, size=node_size, font={"size": font_size}),
@@ -28,10 +28,10 @@ nodes = [
 ]
 
 edges = [
-    Edge(source="Start", target="Agent", arrow_to=True, width=edge_width, color=edge_colour),
-    Edge(source="Agent", target="Tools", arrow_to=True, width=edge_width, color=edge_colour),
-    Edge(source="Tools", target="Agent", arrow_to=True, width=edge_width, color=edge_colour),
-    Edge(source="Agent", target="End", arrow_to=True, width=edge_width, color=edge_colour),
+    Edge(source="Start", target="Agent", arrow_to=True, width=edge_width, color=edge_colour, dashes=edge_style),
+    Edge(source="Agent", target="Tools", arrow_to=True, width=edge_width, color=edge_colour, dashes=edge_style),
+    Edge(source="Tools", target="Agent", arrow_to=True, width=edge_width, color=edge_colour, dashes=edge_style),
+    Edge(source="Agent", target="End", arrow_to=True, width=edge_width, color=edge_colour, dashes=edge_style),
 ]
 
 config = Config(physics=True, directed=True, hierarchical=True, fit=True)
