@@ -1,3 +1,4 @@
 git-changelog
 streamlit
 streamlit_agraph
+watchdog
