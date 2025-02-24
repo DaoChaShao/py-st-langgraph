@@ -30,7 +30,8 @@
 
 ### Docs
 
-- update CHANGELOG.md to include bug fix for expander state and height configuration ([a4ab89e](https://github.com///commit/a4ab89e31adc2fd2fd37dacfdcc4bff3c11ec9ed))
+- add introduction and performance tips for Streamlit application ([77d30eb](https://github.com///commit/77d30ebee025cb72e960755f62f96ea6c0bc4659))
+- update CHANGELOG.md to include bug fix for expander state and height configuration ([d75d881](https://github.com///commit/d75d8811f28142c58a37894dabbb23804f429c49))
 - update CHANGELOG.md to include recent edge style feature additions ([4182fe8](https://github.com///commit/4182fe8a8c0362ccf7437d55d103e6e98acd3cf3))
 - update CHANGELOG.md to include recent feature additions and chore updates ([8a5792b](https://github.com///commit/8a5792b7240f14993904e22992392370d1dc27ed))
 - update CHANGELOG.md for version 0.1.0 with recent features and dependencies ([5df461b](https://github.com///commit/5df461bba9451aa25242ff00d11f3ca8808808c0))
