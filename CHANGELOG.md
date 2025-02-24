@@ -24,6 +24,7 @@
 
 ### Docs
 
+- update CHANGELOG.md to include recent feature additions and chore updates ([af5e39a](https://github.com///commit/af5e39a24055dc08dd2b956583c7b7adc99897d1))
 - update CHANGELOG.md for version 0.1.0 with recent features and dependencies ([5df461b](https://github.com///commit/5df461bba9451aa25242ff00d11f3ca8808808c0))
 - add README file ([3851a92](https://github.com///commit/3851a92a7220f197de6b6815cdc624e87c99ab1c))
 
