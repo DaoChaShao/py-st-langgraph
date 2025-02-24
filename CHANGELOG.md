@@ -5,6 +5,8 @@
 
 ### Features
 
+- add edge style selection to flowchart in tools.py ([b30bae5](https://github.com///commit/b30bae57b42d2b1c18b3e75bc2f2d43774cb06c5))
+- add edge style parameter to flowchart edges in home.py ([a2ef957](https://github.com///commit/a2ef95745536c9e36d89f3060ff7288b6e903552))
 - add flowchart parameter selection in tools.py for Streamlit sidebar ([54ff0d9](https://github.com///commit/54ff0d97f75469468ac54878dddede8e7b3d8b94))
 - enhance LangGraph visualization with dynamic node and edge parameters ([bcf8c5e](https://github.com///commit/bcf8c5eb5f4eaf8802c8d1f9d7c0c01990e76d26))
 - add tools.py for sidebar functionality in Streamlit ([eab67c4](https://github.com///commit/eab67c405bbf960e8bbaecf548c9772682eb78e2))
@@ -24,7 +26,7 @@
 
 ### Docs
 
-- update CHANGELOG.md to include recent feature additions and chore updates ([af5e39a](https://github.com///commit/af5e39a24055dc08dd2b956583c7b7adc99897d1))
+- update CHANGELOG.md to include recent feature additions and chore updates ([8a5792b](https://github.com///commit/8a5792b7240f14993904e22992392370d1dc27ed))
 - update CHANGELOG.md for version 0.1.0 with recent features and dependencies ([5df461b](https://github.com///commit/5df461bba9451aa25242ff00d11f3ca8808808c0))
 - add README file ([3851a92](https://github.com///commit/3851a92a7220f197de6b6815cdc624e87c99ab1c))
 
