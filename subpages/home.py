@@ -13,7 +13,7 @@ from utilis.tools import params_flowchart
 
 title("LangGraph")
 divider()
-with expander("Introduction", expanded=True):
+with expander("Introduction", expanded=False):
     caption("This is the introduction page.")
 
 empty_message: empty = empty()
@@ -34,6 +34,6 @@ edges = [
     Edge(source="Agent", target="End", arrow_to=True, width=edge_width, color=edge_colour, dashes=edge_style),
 ]
 
-config = Config(physics=True, directed=True, hierarchical=True, fit=True)
+config = Config(height=400, physics=True, directed=True, hierarchical=True, fit=True)
 
 agraph(nodes=nodes, edges=edges, config=config)
