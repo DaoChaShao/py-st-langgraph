@@ -26,6 +26,7 @@
 
 ### Docs
 
+- update CHANGELOG.md to include recent edge style feature additions ([2beda1d](https://github.com///commit/2beda1d8b9156787ef5c8782ba7d1c030ec25f9f))
 - update CHANGELOG.md to include recent feature additions and chore updates ([8a5792b](https://github.com///commit/8a5792b7240f14993904e22992392370d1dc27ed))
 - update CHANGELOG.md for version 0.1.0 with recent features and dependencies ([5df461b](https://github.com///commit/5df461bba9451aa25242ff00d11f3ca8808808c0))
 - add README file ([3851a92](https://github.com///commit/3851a92a7220f197de6b6815cdc624e87c99ab1c))
